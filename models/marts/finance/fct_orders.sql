@@ -12,7 +12,7 @@ payments as (
     select
         order_id,
         amount
-    from {{ ref('stg_stripe__payments') }}
+    from {{ ref('stg_stripe__payment') }}
     where status = 'success'
 
 )
