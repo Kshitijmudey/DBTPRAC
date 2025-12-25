@@ -1,0 +1,7 @@
+sources:
+  - name: jaffle_shop
+    database: dbtprac
+    schema: dbt_kmudey
+    tables:
+      - name: customers
+      - name: orders
