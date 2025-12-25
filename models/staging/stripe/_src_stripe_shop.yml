@@ -1,6 +1,6 @@
 sources:
   - name: stripe
     database: dbtprac
-    schema: dbt_kmudey
+    schema: stripe
     tables:
       - name: payment

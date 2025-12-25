@@ -3,5 +3,5 @@
         first_name,
         last_name
 
-    from dbtprac.jaffle_shop.customers
+    from {{ source('jaffle_shop', 'customers') }}
     
