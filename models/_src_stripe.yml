@@ -1,0 +1,6 @@
+
+sources:
+  - name: stripe
+    database: dbtprac
+    tables:
+      - name: payment
